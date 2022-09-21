@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head> 
+<title> Dashboard</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="nav">
+    <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://teams.microsoft.com/_#/school/conversations/Algemeen?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Notion Learn Environment</a>
+        <a href="#">Teams</a>
+        <a href="https://github.com/HZ-HBO-ICT">Github ICT</a>
+        <a href="#">My Progress</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Implementation Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/NL/5.-Onderwijs-examenregelingen/Onderwijs-en-examenregeling/OER-HZ-Bacheloropleiding-voltijd-2022-2023-DEF-13-juni.pdf">Course and Examination Regulations</a>
+        <a href="#">My Progress</a>
+      
+      </div>
+    <main>
+
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+         
+      </main>
+<div class="progresstext">How close am I finishing my Propaedeutic Phasis?</div>
+<progress class="progressred" value="20" max="60"></progress>
+
+
+
+      <center>
+        <h1> <em>D</em>ashboard</h1> 
+
+        <h2>Quartile 1</h2>
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>EC</th>
+            <th>Exam</th>
+            <th>Grade</th>
+            <th>Feedback?</th>
+          </tr>
+          <tr>
+            <th>PCO</th>
+            <td>2.5</td>
+            <td>Assessment</td>
+            <td>4.0</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Computer Science</th>
+            <td>5</td>
+            <td>Written Exam</td>
+            <td>10.0</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Programming Basics</th>
+            <td>5</td>
+            <td>Case Study</td>
+            <td>FILL</td>
+            <td>FILL</td>
+          </tr>
+        </table>
+          <h2>Quartile 2</h2>
+          <table>
+          <tr>
+            <th>Course</th>
+            <th>EC</th>
+            <th>Exam</th>
+            <th>Grade</th>
+            <th>Feedback?</th>
+          </tr>
+          <tr>
+            <th>O.O.P</th>
+            <td>10</td>
+            <td>Case Study & Project</td>
+            <td>(FILL 50/50)</td>
+            <td>FILL IN</td>
+          </tr>
+          </table>
+          <h2>Quartile 3</h2>
+          <table>
+            <tr>
+              <th>Course</th>
+              <th>EC</th>
+              <th>Exam</th>
+              <th>Grade</th>
+              <th>Feedback?</th>
+            </tr>
+            <tr>
+              <th>Framework Development 1</th>
+              <td>5</td>
+              <td>Case Study</td>
+              <td>FILL</td>
+              <td>FILL</td>
+            </tr>
+            <tr>
+              <th>Framework Project 1</th>
+              <td>7.5</td>
+              <td>Project, Case Study & Report </td>
+              <td>33% FILL</td>
+              <td>FILL</td>
+            </tr>
+            <tr>
+              <th>Programming Basics</th>
+              <td>5</td>
+              <td>Case Study</td>
+              <td>10.0</td>
+              <td>Yes</td>
+            </tr>
+          </table>
+            <h2>Quartile 4</h2>
+            <table>
+            <tr>
+              <th>Course</th>
+              <th>EC</th>
+              <th>Exam</th>
+              <th>Grade</th>
+              <th>Feedback?</th>
+            </tr>
+            <tr>
+              <th>Framework Project 2</th>
+              <td>10</td>
+              <td>Portfolio, Project & Assessment</td>
+              <td>FILL IN (50/25/25)</td>
+              <td>FILL IN</td>
+            </tr>
+            </table>
+          </center>
+
+        
+    </main>
+    
+</body>
+
+</html>

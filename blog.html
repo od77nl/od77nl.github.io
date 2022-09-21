@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head> 
+<title>Blog</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="nav">
+    <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      </div>
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://teams.microsoft.com/_#/school/conversations/Algemeen?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Notion Learn Environment</a>
+        <a href="#">Teams</a>
+        <a href="https://github.com/HZ-HBO-ICT">Github ICT</a>
+        <a href="#">My Progress</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Implementation Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/NL/5.-Onderwijs-examenregelingen/Onderwijs-en-examenregeling/OER-HZ-Bacheloropleiding-voltijd-2022-2023-DEF-13-juni.pdf">Course and Examination Regulations</a>
+        <a href="#">My Progress</a>
+      
+      </div>
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+         
+      
+    <!--: Command used to add notes on code-->
+    <main>
+        <h1>Blog</h1> 
+        <h2>Ov</h2>
+        <p><a href ="post1.html">Study Choice Activities, Motivation, After my Study.. </a></p>
+        <p><a href ="post2.html">Company Safari</p></h2>
+
+        
+    </main>
+    
+</body>
+
+</html>

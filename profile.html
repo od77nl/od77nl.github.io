@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head> 
+<title> Odin's page</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="nav">
+    <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://teams.microsoft.com/_#/school/conversations/Algemeen?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Notion Learn Environment</a>
+        <a href="#">Teams</a>
+        <a href="https://github.com/HZ-HBO-ICT">Github ICT</a>
+        <a href="#">My Progress</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Implementation Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/NL/5.-Onderwijs-examenregelingen/Onderwijs-en-examenregeling/OER-HZ-Bacheloropleiding-voltijd-2022-2023-DEF-13-juni.pdf">Course and Examination Regulations</a>
+        <a href="#">My Progress</a>
+      </div>
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://teams.microsoft.com/_#/school/conversations/Algemeen?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Notion Learn Environment</a>
+        <a href="#">Teams</a>
+        <a href="https://github.com/HZ-HBO-ICT">Github ICT</a>
+        <a href="#">My Progress</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Implementation Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/NL/5.-Onderwijs-examenregelingen/Onderwijs-en-examenregeling/OER-HZ-Bacheloropleiding-voltijd-2022-2023-DEF-13-juni.pdf">Course and Examination Regulations</a>
+        <a href="#">My Progress</a>
+      
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+         
+    <!--: Command used to add notes on code-->
+    <main>
+        <h1><em>W</em>ho am I?</h1> 
+        <img src="https://i.imgur.com/9IBNxFn.jpeg" alt="Picture of me" style="width:25%">
+
+        <figcaption>Me at the <a href="https://www.google.com/maps/place/Zeelandbrug/@51.610977,3.8894396,15z/data=!4m5!3m4!1s0x0:0xe05151632e0dd4a!8m2!3d51.610977!4d3.8894396">Zeelandbrug</a></figcaption>
+        <p> </p>
+        <!--: u1 is unordered list, o1 is displayed with 1,2,3-->
+        <!--: numbers after element (such as H1) are used to show importance such as h2, h3 etc..-->
+        <h2> Background information </h2>
+          <p> In my free time, I still like be busy. For instance, I wake up reading newspapers and articles about different sectors (it doesn't really matter what field it is in, it could be about Stock Markets and Bill Gates taking over another Company but it could also be about law changes in the Netherlands). I've practiced multiple sports like Krav Maga, Thai Kickboxing, Baseball and Football. I like to go out and i.e. visit the cinema, visit car events (I like oldtimers and hypercars), visit cities in Europe and go sightseeing, or just have a board game night with friends at home.  </p>
+          <p> Because of my work in the Music Industry, I also like to go to music events, also in here it doesn't matter which music genre it is about. It could be Metallica live but it also could be Hans Zimmer (movie music composer) or just Pop Music. Either way, if it has people dancing around and different foods I am satisfied enough.</p>
+          <p> Also, really (no cliche), I love to travel. I've visited about 40 cities in 14 countries. Sightseeing (visiting local and historical places) and learning about different cultures is what I do it for.</p>
+        <h2> Characteristics</h2>
+        <u1>
+             <li><em>Eager to learn</em></li>
+             <li><em> Progressive</em></li>
+             <li><em>Flexible</em></li>
+             <li><em>Resilient</em></li>
+        </u1>
+        <h2> Extracurricular Activities</h2>
+        <u1>
+            <li><em>Marketing Manager</em> in the Dutch/International Music Industry</li>
+            <li><em>Technical Operator</em> at an old-school steelplant (really large though)</li>
+            <li><em>Chairman</em> of Student Council prev. study</li>
+            <li><em>Chairman</em> of the Financial Commission at prev. study</li>
+        </u1>
+        
+        <!--: IMG has no closing tag -->
+        
+    </main>
+    
+</body>
+
+</html>
