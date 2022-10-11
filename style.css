@@ -66,11 +66,6 @@ align: center;
 
 /* SIDEBAR */
 
-body {
-  font-family: "Georgia";
-  transition: background-color .5s;
-}
-
 .sidenav {
   height: 100%;
   width: 0;
