@@ -1,8 +1,8 @@
 body {
 font-family: Georgia; 
 padding-top: 25px;
+background-image: url('https://wallpapercave.com/dwp2x/MQy6rhu.jpg');
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -57,11 +57,11 @@ h2 {
 }
 
 .faqorder {
-  text-align: left;
+  text-align: center;
 }
 
-.faqpic {
-text-align: center;
+.faqfoto {
+align: center;
 }
 
 /* SIDEBAR */
@@ -125,7 +125,7 @@ table,tr, {
 /* PROGRESS BAR*/
 .progress-bar {
   background-color: #fefefe;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   margin: 15px;
   height: 30px;
@@ -148,4 +148,7 @@ progress {
 
 .progresstext {
   margin-top: 70px;
+  font-family: Fantasy;
+  font-size: 40px;
 }
+
